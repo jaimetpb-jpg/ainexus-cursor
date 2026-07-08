@@ -12,16 +12,19 @@ export function FraudDetectionPipeline() {
 
   useEffect(() => {
     const id = setInterval(() => {
-      setStep((s) => (s + 1) % 5);
-      if (step === 3) {
-        setBlocked(true);
-        setScore(Math.round(12 + Math.random() * 8));
-        setTimeout(() => setBlocked(false), 2500);
-        setTimeout(() => setScore(94), 4000);
-      }
+      setStep((s) => {
+        const next = (s + 1) % 5;
+        if (next === 4) {
+          setBlocked(true);
+          setScore(Math.round(12 + Math.random() * 8));
+          setTimeout(() => setBlocked(false), 2500);
+          setTimeout(() => setScore(94), 4000);
+        }
+        return next;
+      });
     }, 1800);
     return () => clearInterval(id);
-  }, [step]);
+  }, []);
 
   const nodes = [
     { label: 'Transacción entrante', sub: 'TX-88421 · $284,000', icon: Wallet },

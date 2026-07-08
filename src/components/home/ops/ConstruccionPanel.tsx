@@ -28,6 +28,7 @@ export function ConstruccionPanel() {
 
   useEffect(() => {
     setEvents([{ id: 1, time: fmtTime(), ...CONST_EVENTS[0], tone: CONST_EVENTS[0].tone }]);
+    eventId.current = 1;
     const id = setInterval(() => {
       const ev = CONST_EVENTS[Math.floor(Math.random() * CONST_EVENTS.length)];
       setEvents((e) => [
@@ -79,9 +80,9 @@ export function ConstruccionPanel() {
             </span>
           </PanelTitle>
           <div className="space-y-3">
-            <GaugeBar label="Cumplimiento cronograma" value={78} max={100} unit="%" warnAt={70} critAt={60} />
-            <GaugeBar label="Calidad inspecciones" value={94} max={100} unit="%" warnAt={85} />
-            <GaugeBar label="EPP y seguridad" value={98} max={100} unit="%" warnAt={90} />
+            <GaugeBar label="Cumplimiento cronograma" value={78} max={100} unit="%" warnAt={70} critAt={60} direction="high" />
+            <GaugeBar label="Calidad inspecciones" value={94} max={100} unit="%" warnAt={85} direction="high" />
+            <GaugeBar label="EPP y seguridad" value={98} max={100} unit="%" warnAt={90} direction="high" />
             <GaugeBar label="Desperdicio material" value={4} max={100} unit="%" warnAt={8} critAt={12} />
           </div>
         </Panel>

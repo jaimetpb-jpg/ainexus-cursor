@@ -49,6 +49,7 @@ export function InmobiliariaPanel() {
 
   useEffect(() => {
     setEvents([{ id: 1, time: fmtTime(), ...INMO_EVENTS[3], tone: INMO_EVENTS[3].tone }]);
+    eventId.current = 1;
     const id = setInterval(() => {
       const ev = INMO_EVENTS[Math.floor(Math.random() * INMO_EVENTS.length)];
       setEvents((e) => [

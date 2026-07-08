@@ -122,6 +122,7 @@ export function GaugeBar({
   unit,
   warnAt,
   critAt,
+  direction = 'low',
 }: {
   label: string;
   value: number;
@@ -129,12 +130,14 @@ export function GaugeBar({
   unit: string;
   warnAt?: number;
   critAt?: number;
+  /** 'low' = alert when value rises (higher is worse); 'high' = alert when value drops (higher is better) */
+  direction?: 'high' | 'low';
 }) {
   const pct = Math.min(100, (value / max) * 100);
   const color =
-    critAt !== undefined && value >= critAt
+    critAt !== undefined && (direction === 'high' ? value <= critAt : value >= critAt)
       ? '#ff5765'
-      : warnAt !== undefined && value >= warnAt
+      : warnAt !== undefined && (direction === 'high' ? value <= warnAt : value >= warnAt)
         ? '#f2b33d'
         : '#3b6ea5';
   return (

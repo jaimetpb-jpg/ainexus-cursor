@@ -190,6 +190,7 @@ export function ManufacturingPanel() {
       { id: 1, time: fmtTime(), ...MFG_EVENTS_POOL[0], tone: MFG_EVENTS_POOL[0].tone },
       { id: 2, time: fmtTime(new Date(Date.now() - 10000)), ...MFG_EVENTS_POOL[1], tone: MFG_EVENTS_POOL[1].tone },
     ]);
+    eventId.current = 2;
     const id = setInterval(() => {
       setMachines((prev) =>
         prev.map((m) => ({

@@ -68,7 +68,6 @@ function EcgWaveform({ alert }: { alert: AlertLevel }) {
 /** Monitor avanzado: signos vitales → Agente IA → alerta médico inmediata */
 export function VitalsAIMonitor() {
   const [vitals, setVitals] = useState<VitalState>({ hr: 78, spo2: 96, bpSys: 128, bpDia: 82, temp: 36.8 });
-  const [alertPulse, setAlertPulse] = useState(0);
   const [doctorNotified, setDoctorNotified] = useState(false);
   const [notifyStep, setNotifyStep] = useState(0);
 
@@ -94,7 +93,6 @@ export function VitalsAIMonitor() {
   useEffect(() => {
     const level = getAlert(vitals);
     if (level === 'crit' || level === 'warn') {
-      setAlertPulse((p) => p + 1);
       setNotifyStep(1);
       const t1 = setTimeout(() => setNotifyStep(2), 400);
       const t2 = setTimeout(() => setNotifyStep(3), 900);
@@ -112,7 +110,7 @@ export function VitalsAIMonitor() {
     }
     setNotifyStep(0);
     return undefined;
-  }, [vitals.hr, vitals.spo2, vitals.bpSys, vitals.temp, alertPulse]);
+  }, [vitals.hr, vitals.spo2, vitals.bpSys, vitals.temp]);
 
   const vitalColor = (key: keyof VitalState, val: number) => {
     if (key === 'spo2' && val < 90) return '#ff5765';

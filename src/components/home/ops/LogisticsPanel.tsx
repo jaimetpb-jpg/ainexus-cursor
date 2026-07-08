@@ -68,6 +68,7 @@ export function LogisticsPanel() {
       { id: 2, time: fmtTime(new Date(Date.now() - 8000)), ...LOG_EVENTS_POOL[1], tone: LOG_EVENTS_POOL[1].tone },
       { id: 3, time: fmtTime(new Date(Date.now() - 20000)), ...LOG_EVENTS_POOL[2], tone: LOG_EVENTS_POOL[2].tone },
     ]);
+    eventId.current = 3;
     const id = setInterval(() => {
       const ev = LOG_EVENTS_POOL[Math.floor(Math.random() * LOG_EVENTS_POOL.length)];
       setEvents((e) => [
@@ -206,6 +207,7 @@ export function LogisticsPanel() {
                   unit=" PSI"
                   warnAt={90}
                   critAt={80}
+                  direction="high"
                 />
                 <GaugeBar label="Nivel de cansancio" value={r.fatigue} max={100} unit="%" warnAt={50} critAt={65} />
                 <div className="flex items-center justify-between font-mono text-[9px] text-[#54667e]">
@@ -242,7 +244,7 @@ export function LogisticsPanel() {
             <div key={r.id} className="rounded-lg border border-[#1b2735] bg-[#121a25] p-3">
               <p className="font-mono text-[11px] font-bold text-white">{r.id}</p>
               <div className="mt-2 space-y-2">
-                <GaugeBar label="Combustible restante" value={r.fuel} max={100} unit="%" warnAt={30} critAt={15} />
+                <GaugeBar label="Combustible restante" value={r.fuel} max={100} unit="%" warnAt={30} critAt={15} direction="high" />
                 <GaugeBar label="Horas en carretera" value={r.roadHrs} max={10} unit=" h" warnAt={8} />
               </div>
             </div>

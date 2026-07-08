@@ -93,6 +93,7 @@ export function SaludPanel() {
       { id: 1, time: fmtTime(), ...SALUD_EVENTS_POOL[0], tone: SALUD_EVENTS_POOL[0].tone },
       { id: 2, time: fmtTime(new Date(Date.now() - 10000)), ...SALUD_EVENTS_POOL[2], tone: SALUD_EVENTS_POOL[2].tone },
     ]);
+    eventId.current = 2;
     const id = setInterval(() => {
       const ev = SALUD_EVENTS_POOL[Math.floor(Math.random() * SALUD_EVENTS_POOL.length)];
       setEvents((e) => [
@@ -244,9 +245,9 @@ export function SaludPanel() {
             </span>
           </PanelTitle>
           <div className="space-y-3">
-            <GaugeBar label="Satisfacción paciente" value={87} max={100} unit="%" warnAt={70} />
-            <GaugeBar label="Autorizaciones aseguradora" value={89} max={100} unit="%" warnAt={75} />
-            <GaugeBar label="Resultados lab en 4h" value={76} max={100} unit="%" warnAt={65} />
+            <GaugeBar label="Satisfacción paciente" value={87} max={100} unit="%" warnAt={70} direction="high" />
+            <GaugeBar label="Autorizaciones aseguradora" value={89} max={100} unit="%" warnAt={75} direction="high" />
+            <GaugeBar label="Resultados lab en 4h" value={76} max={100} unit="%" warnAt={65} direction="high" />
             <GaugeBar label="No-show citas" value={8} max={100} unit="%" warnAt={12} critAt={18} />
           </div>
         </Panel>

@@ -108,6 +108,7 @@ export function FinanzasPanel() {
       { id: 1, time: fmtTime(), ...FIN_EVENTS_POOL[0], tone: FIN_EVENTS_POOL[0].tone },
       { id: 2, time: fmtTime(new Date(Date.now() - 12000)), ...FIN_EVENTS_POOL[1], tone: FIN_EVENTS_POOL[1].tone },
     ]);
+    eventId.current = 2;
     const id = setInterval(() => {
       const ev = FIN_EVENTS_POOL[Math.floor(Math.random() * FIN_EVENTS_POOL.length)];
       setEvents((e) => [
@@ -262,9 +263,9 @@ export function FinanzasPanel() {
             </span>
           </PanelTitle>
           <div className="space-y-3">
-            <GaugeBar label="Tasa de recuperación" value={67} max={100} unit="%" warnAt={50} critAt={35} />
-            <GaugeBar label="Promesas cumplidas" value={78} max={100} unit="%" warnAt={60} />
-            <GaugeBar label="Cobertura seguros" value={94} max={100} unit="%" />
+            <GaugeBar label="Tasa de recuperación" value={67} max={100} unit="%" warnAt={50} critAt={35} direction="high" />
+            <GaugeBar label="Promesas cumplidas" value={78} max={100} unit="%" warnAt={60} direction="high" />
+            <GaugeBar label="Cobertura seguros" value={94} max={100} unit="%" direction="high" />
             <GaugeBar label="Exposición riesgo alto" value={11} max={100} unit="%" warnAt={8} critAt={15} />
           </div>
         </Panel>

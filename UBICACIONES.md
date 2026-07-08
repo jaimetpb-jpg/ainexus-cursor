@@ -1,14 +1,15 @@
 # Dónde está guardado el proyecto AI Nexus
 
-Actualizado: 2026-07-07
+Actualizado: 2026-07-08
 
 ## Local (desarrollo activo)
 
 | Qué | Ruta |
 |-----|------|
 | **Código fuente + Git** | `C:\dev\ainexus-cursor` |
-| Rama actual | `redesign-home` |
-| Último commit | `cfb9763` — rediseño home, dashboards, auth modal |
+| Rama principal | `main` |
+| GitHub | https://github.com/jaimetpb-jpg/ainexus-cursor |
+| Último deploy prod | `fea2589` — rediseño + fix FraudCollectionFlows |
 
 Comandos:
 ```bash
@@ -26,16 +27,35 @@ npm run build    # genera dist/
 
 > Sin `node_modules` ni `dist` en la copia (más liviana). Para trabajar: `npm install` en esa carpeta o usar `C:\dev\ainexus-cursor`.
 
-## Nube — sitio web (Hostinger)
+## Producción — VPS Hostinger (sitio en vivo)
 
 | Qué | Dónde |
 |-----|--------|
-| **Producción actual** | `https://ainexus.com.mx` |
-| Servidor | Hostinger · usuario `u106756730` |
-| Carpeta web | `/home/u106756730/domains/ainexus.com.mx/public_html` |
+| **Dominio** | `https://ainexus.com.mx` |
+| DNS A record | `2.24.204.193` (VPS) |
+| SSH | `ssh nexus` → `root@2.24.204.193` (clave `~/.ssh/nexus_vps_new`) |
+| Carpeta web activa | `/docker/ainexus/html` |
+| Contenedor | `ainexus-ainexus-1` (nginx:alpine, puerto 127.0.0.1:8082) |
+| Config nginx | `/docker/ainexus/nginx.conf` |
+| Proxy HTTPS | Traefik → contenedor ainexus |
 
-**Este rediseño NO está en producción aún.** Cuando apruebes, el build (`dist/`) irá primero a **staging** (subdominio) y después al swap en `public_html`.
+Deploy automatizado:
+```powershell
+cd C:\dev\ainexus-cursor
+.\scripts\deploy-vps.ps1
+```
 
-## Pendiente (si quieres repo Git en la nube)
+Rollback (restaurar sitio anterior):
+```bash
+ssh nexus 'cd /docker/ainexus && tar xzf html_backup_YYYYMMDD_HHMMSS.tar.gz'
+ssh nexus 'docker restart ainexus-ainexus-1'
+```
 
-- GitHub / GitLab: aún sin `remote`. Si me das la URL del repo, conecto y hago `push`.
+## Hosting compartido (NO es producción actual)
+
+| Qué | Dónde |
+|-----|--------|
+| Usuario Hostinger | `u106756730` |
+| Carpeta | `/home/u106756730/domains/ainexus.com.mx/public_html` |
+
+El DNS de `ainexus.com.mx` apunta al **VPS**, no al hosting compartido. Cambios en `public_html` no afectan el sitio en vivo.

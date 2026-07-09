@@ -12,6 +12,8 @@ export const NAV = [
   { label: 'Inicio', href: '/' },
   { label: 'Servicios', href: '/servicios' },
   { label: 'Sectores', href: '/sectores' },
+  { label: 'Noticias', href: '/noticias' },
+  { label: 'Artículos', href: '/articulos' },
   { label: 'Contacto', href: '/#contacto' },
 ] as const;
 
@@ -38,9 +40,10 @@ export const FOOTER_INDUSTRIES = [
 ] as const;
 
 export const FOOTER_COMPANY = [
+  { label: 'Noticias', href: '/noticias' },
+  { label: 'Artículos', href: '/articulos' },
   { label: 'Sobre AI Nexus', href: '/#contacto' },
   { label: 'Contrataciones', href: 'mailto:contrataciones@ainexus.com.mx' },
-  { label: 'Blog', href: 'https://ainexus.com.mx/blog', external: true },
 ] as const;
 
 export const FOOTER_LEGAL = [

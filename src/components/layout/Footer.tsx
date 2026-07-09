@@ -133,7 +133,7 @@ export function Footer() {
             ))}
             {FOOTER_COMPANY.map((c) => (
               <li key={c.label}>
-                <FooterLink href={c.href} external={'external' in c && c.external}>
+                <FooterLink href={c.href} external={'external' in c ? Boolean(c.external) : false}>
                   {c.label}
                 </FooterLink>
               </li>

@@ -1,4 +1,8 @@
 User-agent: *
 Allow: /
+Allow: /noticias
+Allow: /articulos
+Allow: /servicios
+Allow: /sectores
 
 Sitemap: https://ainexus.com.mx/sitemap.xml

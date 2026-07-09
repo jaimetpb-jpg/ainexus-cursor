@@ -1,0 +1,326 @@
+[
+  {
+    "slug": "rss-our-approach-to-government-and-national-security-partnerships",
+    "title": "Our approach to government and national security partnerships",
+    "excerpt": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety.",
+    "body": [
+      {
+        "type": "p",
+        "text": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public safety."
+      },
+      {
+        "type": "p",
+        "text": "Fuente original: OpenAI. Lee el artículo completo en el enlace externo."
+      }
+    ],
+    "date": "2026-07-08",
+    "category": "innovacion",
+    "tags": [
+      "RSS",
+      "OpenAI",
+      "IA"
+    ],
+    "image": "/images/hero-control-tower.webp",
+    "readMin": 3,
+    "source": "OpenAI",
+    "sourceUrl": "https://openai.com/index/government-national-security-partnerships",
+    "external": true
+  },
+  {
+    "slug": "rss-separating-signal-from-noise-in-coding-evaluations",
+    "title": "Separating signal from noise in coding evaluations",
+    "excerpt": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models.",
+    "body": [
+      {
+        "type": "p",
+        "text": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI models."
+      },
+      {
+        "type": "p",
+        "text": "Fuente original: OpenAI. Lee el artículo completo en el enlace externo."
+      }
+    ],
+    "date": "2026-07-08",
+    "category": "innovacion",
+    "tags": [
+      "RSS",
+      "OpenAI",
+      "IA"
+    ],
+    "image": "/images/hero-control-tower.webp",
+    "readMin": 3,
+    "source": "OpenAI",
+    "sourceUrl": "https://openai.com/index/separating-signal-from-noise-coding-evaluations",
+    "external": true
+  },
+  {
+    "slug": "rss-helping-k-12-educators-build-practical-ai-skills",
+    "title": "Helping K–12 educators build practical AI skills",
+    "excerpt": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom.",
+    "body": [
+      {
+        "type": "p",
+        "text": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom."
+      },
+      {
+        "type": "p",
+        "text": "Fuente original: OpenAI. Lee el artículo completo en el enlace externo."
+      }
+    ],
+    "date": "2026-07-08",
+    "category": "innovacion",
+    "tags": [
+      "RSS",
+      "OpenAI",
+      "IA"
+    ],
+    "image": "/images/hero-control-tower.webp",
+    "readMin": 3,
+    "source": "OpenAI",
+    "sourceUrl": "https://openai.com/index/k-12-educators-practical-skills",
+    "external": true
+  },
+  {
+    "slug": "rss-introducing-gpt-live",
+    "title": "Introducing GPT-Live",
+    "excerpt": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice.",
+    "body": [
+      {
+        "type": "p",
+        "text": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice."
+      },
+      {
+        "type": "p",
+        "text": "Fuente original: OpenAI. Lee el artículo completo en el enlace externo."
+      }
+    ],
+    "date": "2026-07-08",
+    "category": "innovacion",
+    "tags": [
+      "RSS",
+      "OpenAI",
+      "IA"
+    ],
+    "image": "/images/hero-control-tower.webp",
+    "readMin": 3,
+    "source": "OpenAI",
+    "sourceUrl": "https://openai.com/index/introducing-gpt-live",
+    "external": true
+  },
+  {
+    "slug": "rss-data-for-agents",
+    "title": "Data for Agents",
+    "excerpt": "Data for Agents",
+    "body": [
+      {
+        "type": "p",
+        "text": "Data for Agents"
+      },
+      {
+        "type": "p",
+        "text": "Fuente original: Hugging Face. Lee el artículo completo en el enlace externo."
+      }
+    ],
+    "date": "2026-07-08",
+    "category": "innovacion",
+    "tags": [
+      "RSS",
+      "Hugging Face",
+      "IA"
+    ],
+    "image": "/images/hero-control-tower.webp",
+    "readMin": 3,
+    "source": "Hugging Face",
+    "sourceUrl": "https://huggingface.co/blog/nvidia/open-data-for-agents",
+    "external": true
+  },
+  {
+    "slug": "rss-native-speed-vllm-transformers-modeling-backend",
+    "title": "Native-speed vLLM transformers modeling backend",
+    "excerpt": "Native-speed vLLM transformers modeling backend",
+    "body": [
+      {
+        "type": "p",
+        "text": "Native-speed vLLM transformers modeling backend"
+      },
+      {
+        "type": "p",
+        "text": "Fuente original: Hugging Face. Lee el artículo completo en el enlace externo."
+      }
+    ],
+    "date": "2026-07-08",
+    "category": "innovacion",
+    "tags": [
+      "RSS",
+      "Hugging Face",
+      "IA"
+    ],
+    "image": "/images/hero-control-tower.webp",
+    "readMin": 3,
+    "source": "Hugging Face",
+    "sourceUrl": "https://huggingface.co/blog/native-speed-vllm-transformers-backend",
+    "external": true
+  },
+  {
+    "slug": "rss-australian-payments-plus-moves-faster-with-chatgpt-and-codex",
+    "title": "Australian Payments Plus moves faster with ChatGPT and Codex",
+    "excerpt": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central.",
+    "body": [
+      {
+        "type": "p",
+        "text": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps human judgment central."
+      },
+      {
+        "type": "p",
+        "text": "Fuente original: OpenAI. Lee el artículo completo en el enlace externo."
+      }
+    ],
+    "date": "2026-07-07",
+    "category": "innovacion",
+    "tags": [
+      "RSS",
+      "OpenAI",
+      "IA"
+    ],
+    "image": "/images/hero-control-tower.webp",
+    "readMin": 3,
+    "source": "OpenAI",
+    "sourceUrl": "https://openai.com/index/australian-payments-plus",
+    "external": true
+  },
+  {
+    "slug": "rss-expanding-managed-agents-in-gemini-api-background-tasks-remote-mcp-and-m",
+    "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more",
+    "excerpt": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp\"&gt;We’re announcing new capabilities in Managed Agents in Gem",
+    "body": [
+      {
+        "type": "p",
+        "text": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp\"&gt;We’re announcing new capabilities in Managed Agents in Gem"
+      },
+      {
+        "type": "p",
+        "text": "Fuente original: Google AI. Lee el artículo completo en el enlace externo."
+      }
+    ],
+    "date": "2026-07-07",
+    "category": "innovacion",
+    "tags": [
+      "RSS",
+      "Google AI",
+      "IA"
+    ],
+    "image": "/images/hero-control-tower.webp",
+    "readMin": 3,
+    "source": "Google AI",
+    "sourceUrl": "https://blog.google/innovation-and-ai/technology/developers-tools/expanding-managed-agents-gemini-api/",
+    "external": true
+  },
+  {
+    "slug": "rss-from-hugging-face-to-amazon-sagemaker-studio-in-one-click",
+    "title": "From Hugging Face to Amazon SageMaker Studio in one click",
+    "excerpt": "From Hugging Face to Amazon SageMaker Studio in one click",
+    "body": [
+      {
+        "type": "p",
+        "text": "From Hugging Face to Amazon SageMaker Studio in one click"
+      },
+      {
+        "type": "p",
+        "text": "Fuente original: Hugging Face. Lee el artículo completo en el enlace externo."
+      }
+    ],
+    "date": "2026-07-07",
+    "category": "innovacion",
+    "tags": [
+      "RSS",
+      "Hugging Face",
+      "IA"
+    ],
+    "image": "/images/hero-control-tower.webp",
+    "readMin": 3,
+    "source": "Hugging Face",
+    "sourceUrl": "https://huggingface.co/blog/amazon/one-click-to-sagemaker-studio",
+    "external": true
+  },
+  {
+    "slug": "rss-hugging-face-models-on-foundry-managed-compute",
+    "title": "Hugging Face Models on Foundry Managed Compute",
+    "excerpt": "Hugging Face Models on Foundry Managed Compute",
+    "body": [
+      {
+        "type": "p",
+        "text": "Hugging Face Models on Foundry Managed Compute"
+      },
+      {
+        "type": "p",
+        "text": "Fuente original: Hugging Face. Lee el artículo completo en el enlace externo."
+      }
+    ],
+    "date": "2026-07-07",
+    "category": "innovacion",
+    "tags": [
+      "RSS",
+      "Hugging Face",
+      "IA"
+    ],
+    "image": "/images/hero-control-tower.webp",
+    "readMin": 3,
+    "source": "Hugging Face",
+    "sourceUrl": "https://huggingface.co/blog/microsoft/foundry-managed-compute",
+    "external": true
+  },
+  {
+    "slug": "rss-run-ai-workloads-on-any-cloud-store-on-hugging-face-zero-egress-storage-",
+    "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+    "excerpt": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot",
+    "body": [
+      {
+        "type": "p",
+        "text": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot"
+      },
+      {
+        "type": "p",
+        "text": "Fuente original: Hugging Face. Lee el artículo completo en el enlace externo."
+      }
+    ],
+    "date": "2026-07-07",
+    "category": "innovacion",
+    "tags": [
+      "RSS",
+      "Hugging Face",
+      "IA"
+    ],
+    "image": "/images/hero-control-tower.webp",
+    "readMin": 3,
+    "source": "Hugging Face",
+    "sourceUrl": "https://huggingface.co/blog/skypilot-hf-storage",
+    "external": true
+  },
+  {
+    "slug": "rss-the-latest-ai-news-we-announced-in-june-2026",
+    "title": "The latest AI news we announced in June 2026",
+    "excerpt": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from June 2026.",
+    "body": [
+      {
+        "type": "p",
+        "text": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp\"&gt;Here are Google’s latest AI updates from June 2026."
+      },
+      {
+        "type": "p",
+        "text": "Fuente original: Google AI. Lee el artículo completo en el enlace externo."
+      }
+    ],
+    "date": "2026-07-01",
+    "category": "innovacion",
+    "tags": [
+      "RSS",
+      "Google AI",
+      "IA"
+    ],
+    "image": "/images/hero-control-tower.webp",
+    "readMin": 3,
+    "source": "Google AI",
+    "sourceUrl": "https://blog.google/innovation-and-ai/technology/ai/google-ai-updates-june-2026/",
+    "external": true
+  }
+]

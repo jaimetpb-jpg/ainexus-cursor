@@ -1,0 +1,156 @@
+{
+  "noticias": [
+    {
+      "path": "/noticias",
+      "title": "Noticias de IA y automatización | AI Nexus",
+      "description": "Últimas noticias sobre agentes de IA, automatización empresarial e innovación tecnológica en México."
+    },
+    {
+      "path": "/noticias/agentes-voz-ia-empresas-2026",
+      "title": "Agentes de voz con IA 2026 | Noticias AI Nexus",
+      "description": "La nueva frontera del servicio 24/7 para empresas en México."
+    },
+    {
+      "path": "/noticias/automatizacion-n8n-erp-sin-codigo",
+      "title": "Automatización n8n sin código | Noticias AI Nexus",
+      "description": "Conecta ERP, WhatsApp y hojas de cálculo."
+    },
+    {
+      "path": "/noticias/copilotos-ventas-whatsapp-ia",
+      "title": "Copilotos de ventas en WhatsApp | Noticias AI Nexus",
+      "description": "Del chat manual al pipeline automático."
+    },
+    {
+      "path": "/noticias/ia-manufactura-datos-tiempo-real",
+      "title": "IA en manufactura | Noticias AI Nexus",
+      "description": "Señales en tiempo real para plantas."
+    },
+    {
+      "path": "/noticias/regulacion-ia-latam-empresas",
+      "title": "Regulación IA en LATAM | Noticias AI Nexus",
+      "description": "Qué preparar tu empresa en 2026."
+    },
+    {
+      "path": "/noticias/multimodal-ia-atencion-cliente",
+      "title": "IA multimodal en atención | Noticias AI Nexus",
+      "description": "Texto, voz e imágenes en un flujo."
+    },
+    {
+      "path": "/noticias/agentes-ia-logistica-rutas",
+      "title": "Agentes IA en logística | Noticias AI Nexus",
+      "description": "Alertas de ruta y combustible."
+    },
+    {
+      "path": "/noticias/futuro-trabajo-ia-colaborativa",
+      "title": "Humanos + agentes IA | Noticias AI Nexus",
+      "description": "El futuro del trabajo colaborativo."
+    },
+    {
+      "path": "/noticias/rss-our-approach-to-government-and-national-security-partnerships",
+      "title": "Our approach to government and national security partnerships | Noticias AI Nexus",
+      "description": "Learn how OpenAI approaches government and national security partnerships, with principles for responsible AI use, democratic accountability, and public sa"
+    },
+    {
+      "path": "/noticias/rss-separating-signal-from-noise-in-coding-evaluations",
+      "title": "Separating signal from noise in coding evaluations | Noticias AI Nexus",
+      "description": "A new analysis from OpenAI reveals issues in SWE-Bench Pro, a popular coding benchmark, raising concerns about reliability and accuracy in evaluating AI mo"
+    },
+    {
+      "path": "/noticias/rss-helping-k-12-educators-build-practical-ai-skills",
+      "title": "Helping K–12 educators build practical AI skills | Noticias AI Nexus",
+      "description": "OpenAI Academy and the Walton Family Foundation are bringing hands-on AI Skills Jams to help K–12 educators build practical AI skills for the classroom."
+    },
+    {
+      "path": "/noticias/rss-introducing-gpt-live",
+      "title": "Introducing GPT-Live | Noticias AI Nexus",
+      "description": "A new generation of voice models for natural human-AI interaction, now powering ChatGPT Voice."
+    },
+    {
+      "path": "/noticias/rss-data-for-agents",
+      "title": "Data for Agents | Noticias AI Nexus",
+      "description": "Data for Agents"
+    },
+    {
+      "path": "/noticias/rss-native-speed-vllm-transformers-modeling-backend",
+      "title": "Native-speed vLLM transformers modeling backend | Noticias AI Nexus",
+      "description": "Native-speed vLLM transformers modeling backend"
+    },
+    {
+      "path": "/noticias/rss-australian-payments-plus-moves-faster-with-chatgpt-and-codex",
+      "title": "Australian Payments Plus moves faster with ChatGPT and Codex | Noticias AI Nexus",
+      "description": "See how Australian Payments Plus uses ChatGPT Enterprise and Codex to move faster through payments complexity. AP+ saves time, improves quality, and keeps "
+    },
+    {
+      "path": "/noticias/rss-expanding-managed-agents-in-gemini-api-background-tasks-remote-mcp-and-m",
+      "title": "Expanding Managed Agents in Gemini API: background tasks, remote MCP and more | Noticias AI Nexus",
+      "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/Managed_agents_feature_bundle_l.max-600x600.format-webp.webp\"&gt;We’re announc"
+    },
+    {
+      "path": "/noticias/rss-from-hugging-face-to-amazon-sagemaker-studio-in-one-click",
+      "title": "From Hugging Face to Amazon SageMaker Studio in one click | Noticias AI Nexus",
+      "description": "From Hugging Face to Amazon SageMaker Studio in one click"
+    },
+    {
+      "path": "/noticias/rss-hugging-face-models-on-foundry-managed-compute",
+      "title": "Hugging Face Models on Foundry Managed Compute | Noticias AI Nexus",
+      "description": "Hugging Face Models on Foundry Managed Compute"
+    },
+    {
+      "path": "/noticias/rss-run-ai-workloads-on-any-cloud-store-on-hugging-face-zero-egress-storage-",
+      "title": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot | Noticias AI Nexus",
+      "description": "Run AI workloads on any cloud, store on Hugging Face: zero-egress storage with SkyPilot"
+    },
+    {
+      "path": "/noticias/rss-the-latest-ai-news-we-announced-in-june-2026",
+      "title": "The latest AI news we announced in June 2026 | Noticias AI Nexus",
+      "description": "&lt;img src=\"https://storage.googleapis.com/gweb-uniblog-publish-prod/images/260701_ICYMI-June-AI_Thumb.max-600x600.format-webp.webp\"&gt;Here are Google’s "
+    }
+  ],
+  "articulos": [
+    {
+      "path": "/articulos",
+      "title": "Artículos: IA en empresas | AI Nexus",
+      "description": "Casos reales de cómo la inteligencia artificial ayudó a empresas en México: logística, finanzas, salud y más."
+    },
+    {
+      "path": "/articulos/whatsapp-logistica-respuesta-inmediata",
+      "title": "Cómo un agente de WhatsApp aceleró la respuesta en logística | Artículos AI Nexus",
+      "description": "Caso de logística con agente NexusChat y respuesta 24/7."
+    },
+    {
+      "path": "/articulos/cobranza-ia-finanzas-seguimiento",
+      "title": "Automatización de cobranza con IA | Artículos AI Nexus",
+      "description": "Seguimiento inteligente de cartera sin presionar al cliente."
+    },
+    {
+      "path": "/articulos/dashboard-manufactura-tiempo-real",
+      "title": "Dashboard en tiempo real en manufactura | Artículos AI Nexus",
+      "description": "De Excel semanal a torre de control operativa."
+    },
+    {
+      "path": "/articulos/ia-salud-citas-triage",
+      "title": "IA en salud: triage de citas | Artículos AI Nexus",
+      "description": "Recepción sin saturación con agente de citas."
+    },
+    {
+      "path": "/articulos/inmobiliaria-leads-calificados",
+      "title": "Inmobiliaria: leads calificados | Artículos AI Nexus",
+      "description": "De portales fríos a visitas con intención real."
+    },
+    {
+      "path": "/articulos/construccion-inspecciones-ia",
+      "title": "Construcción: inspecciones con IA | Artículos AI Nexus",
+      "description": "Calidad y EPP documentados en tiempo real."
+    },
+    {
+      "path": "/articulos/retail-inventario-automatizado",
+      "title": "Retail: inventario omnicanal | Artículos AI Nexus",
+      "description": "Sincronización tienda y e-commerce."
+    },
+    {
+      "path": "/articulos/agro-riego-datos-clima",
+      "title": "Agro: riego con datos de clima | Artículos AI Nexus",
+      "description": "Alertas para técnicos de campo."
+    }
+  ]
+}

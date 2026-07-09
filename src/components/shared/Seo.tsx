@@ -40,8 +40,7 @@ export const organizationJsonLd = {
   '@type': 'Organization',
   name: 'AI Nexus',
   url: SITE_URL,
-  description:
-    'Agentes de IA, automatizaciones y dashboards para empresas en México.',
+  description: 'Agentes de IA, automatizaciones y dashboards para empresas en México.',
   areaServed: ['MX', 'LATAM'],
   contactPoint: {
     '@type': 'ContactPoint',
@@ -58,3 +57,76 @@ export const websiteJsonLd = {
   url: SITE_URL,
   inLanguage: 'es-MX',
 };
+
+export function breadcrumbJsonLd(items: { name: string; url: string }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: items.map((item, i) => ({
+      '@type': 'ListItem',
+      position: i + 1,
+      name: item.name,
+      item: item.url,
+    })),
+  };
+}
+
+export function newsArticleJsonLd(opts: {
+  title: string;
+  description: string;
+  date: string;
+  image: string;
+  url: string;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'NewsArticle',
+    headline: opts.title,
+    description: opts.description,
+    image: opts.image,
+    datePublished: opts.date,
+    dateModified: opts.date,
+    author: { '@type': 'Organization', name: 'AI Nexus', url: SITE_URL },
+    publisher: {
+      '@type': 'Organization',
+      name: 'AI Nexus',
+      logo: { '@type': 'ImageObject', url: `${SITE_URL}/favicon.svg` },
+    },
+    mainEntityOfPage: opts.url,
+  };
+}
+
+export function blogPostingJsonLd(opts: {
+  title: string;
+  description: string;
+  date: string;
+  image: string;
+  url: string;
+  sector: string;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'BlogPosting',
+    headline: opts.title,
+    description: opts.description,
+    image: opts.image,
+    datePublished: opts.date,
+    dateModified: opts.date,
+    author: { '@type': 'Organization', name: 'AI Nexus' },
+    publisher: { '@type': 'Organization', name: 'AI Nexus', url: SITE_URL },
+    articleSection: opts.sector,
+    mainEntityOfPage: opts.url,
+  };
+}
+
+export function faqJsonLd(items: { q: string; a: string }[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'FAQPage',
+    mainEntity: items.map((item) => ({
+      '@type': 'Question',
+      name: item.q,
+      acceptedAnswer: { '@type': 'Answer', text: item.a },
+    })),
+  };
+}

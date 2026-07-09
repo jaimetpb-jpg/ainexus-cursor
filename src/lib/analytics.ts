@@ -11,7 +11,10 @@ export type NexusEvent =
   | 'listen_voice'
   | 'auth_nav_click'
   | 'auth_login_attempt'
-  | 'auth_signup_attempt';
+  | 'auth_signup_attempt'
+  | 'view_article'
+  | 'click_cta_article'
+  | 'filter_category';
 
 declare global {
   interface Window {

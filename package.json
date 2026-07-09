@@ -5,7 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npm run images && tsc -b && vite build && node scripts/postbuild-seo.mjs",
+    "build": "npm run noticias:fetch && npm run images && tsc -b && vite build && node scripts/postbuild-seo.mjs",
+    "noticias:fetch": "node scripts/fetch-noticias.mjs",
     "images": "node scripts/optimize-images.mjs && node scripts/copy-integration-icons.mjs",
     "lint": "oxlint",
     "preview": "vite preview"

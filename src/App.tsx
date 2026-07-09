@@ -10,6 +10,10 @@ import Home from '@/pages/Home';
 
 const Servicios = lazy(() => import('@/pages/Servicios'));
 const Sectores = lazy(() => import('@/pages/Sectores'));
+const Noticias = lazy(() => import('@/pages/Noticias'));
+const NoticiaDetalle = lazy(() => import('@/pages/NoticiaDetalle'));
+const Articulos = lazy(() => import('@/pages/Articulos'));
+const ArticuloDetalle = lazy(() => import('@/pages/ArticuloDetalle'));
 
 function ScrollManager() {
   const { pathname, hash } = useLocation();
@@ -44,6 +48,10 @@ export default function App() {
               <Route path="/" element={<Home />} />
               <Route path="/servicios" element={<Servicios />} />
               <Route path="/sectores" element={<Sectores />} />
+              <Route path="/noticias" element={<Noticias />} />
+              <Route path="/noticias/:slug" element={<NoticiaDetalle />} />
+              <Route path="/articulos" element={<Articulos />} />
+              <Route path="/articulos/:slug" element={<ArticuloDetalle />} />
               <Route path="/login" element={<AuthRoutes />} />
               <Route path="/registro" element={<AuthRoutes />} />
             </Routes>
